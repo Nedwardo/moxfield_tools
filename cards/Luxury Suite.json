@@ -1,0 +1,11 @@
+{
+    "name": "Luxury Suite",
+    "cmc": 0,
+    "type_line": "Land",
+    "oracle_text": "Luxury Suite enters the battlefield tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
+    "mana_cost": "",
+    "custom_tags": [
+        "+1 mana"
+    ],
+    "moxfield_tags": []
+}

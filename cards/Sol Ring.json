@@ -1,0 +1,14 @@
+{
+    "name": "Sol Ring",
+    "cmc": 1.0,
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {C}{C}.",
+    "mana_cost": "{1}",
+    "moxfield_tags": [
+        "Mana positive rock"
+    ],
+    "custom_tags": [
+        "+2 mana",
+        "ritual"
+    ]
+}

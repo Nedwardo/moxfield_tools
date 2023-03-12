@@ -1,0 +1,11 @@
+{
+    "name": "Gemstone Mine",
+    "cmc": 0,
+    "type_line": "Land",
+    "oracle_text": "Gemstone Mine enters the battlefield with three mining counters on it.\n{T}, Remove a mining counter from Gemstone Mine: Add one mana of any color. If there are no mining counters on Gemstone Mine, sacrifice it.",
+    "mana_cost": "",
+    "custom_tags": [
+        "+1 mana"
+    ],
+    "moxfield_tags": []
+}

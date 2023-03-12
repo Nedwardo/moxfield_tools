@@ -1,0 +1,11 @@
+{
+    "name": "Flusterstorm",
+    "cmc": 1.0,
+    "type_line": "Instant",
+    "oracle_text": "Counter target instant or sorcery spell unless its controller pays {1}.\nStorm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+    "mana_cost": "{U}",
+    "moxfield_tags": [
+        "Stack interaction"
+    ],
+    "custom_tags": []
+}

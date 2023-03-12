@@ -1,0 +1,11 @@
+{
+    "name": "Gamble",
+    "cmc": 1.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Search your library for a card, put that card into your hand, discard a card at random, then shuffle.",
+    "mana_cost": "{R}",
+    "moxfield_tags": [
+        "Tutor"
+    ],
+    "custom_tags": []
+}

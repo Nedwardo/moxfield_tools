@@ -1,0 +1,11 @@
+{
+    "name": "An Offer You Can't Refuse",
+    "cmc": 1.0,
+    "type_line": "Instant",
+    "oracle_text": "Counter target noncreature spell. Its controller creates two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+    "mana_cost": "{U}",
+    "moxfield_tags": [
+        "Stack interaction"
+    ],
+    "custom_tags": []
+}

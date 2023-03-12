@@ -1,0 +1,11 @@
+{
+    "name": "Exotic Orchard",
+    "cmc": 0,
+    "type_line": "Land",
+    "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+    "mana_cost": "",
+    "custom_tags": [
+        "+1 mana"
+    ],
+    "moxfield_tags": []
+}

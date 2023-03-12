@@ -1,0 +1,16 @@
+{
+    "name": "Simian Spirit Guide",
+    "cmc": 3.0,
+    "type_line": "Creature \u2014 Ape Spirit",
+    "oracle_text": "Exile Simian Spirit Guide from your hand: Add {R}.",
+    "mana_cost": "{2}{R}",
+    "power": "2",
+    "toughness": "2",
+    "moxfield_tags": [
+        "Ritual"
+    ],
+    "custom_tags": [
+        "+1 mana",
+        "ritual"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Springleaf Drum",
+    "cmc": 1.0,
+    "type_line": "Artifact",
+    "oracle_text": "{T}, Tap an untapped creature you control: Add one mana of any color.",
+    "mana_cost": "{1}",
+    "moxfield_tags": [
+        "Mana neutral rock"
+    ],
+    "custom_tags": [
+        "+1 mana"
+    ]
+}

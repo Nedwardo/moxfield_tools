@@ -1,0 +1,11 @@
+{
+    "name": "Command Tower",
+    "cmc": 0,
+    "type_line": "Land",
+    "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+    "mana_cost": "",
+    "custom_tags": [
+        "+1 mana"
+    ],
+    "moxfield_tags": []
+}

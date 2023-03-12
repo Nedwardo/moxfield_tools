@@ -1,0 +1,11 @@
+{
+    "name": "Wooded Foothills",
+    "cmc": 0,
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.",
+    "mana_cost": "",
+    "custom_tags": [
+        "+1 mana"
+    ],
+    "moxfield_tags": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Underground Sea",
+    "cmc": 0,
+    "type_line": "Land \u2014 Island Swamp",
+    "oracle_text": "({T}: Add {U} or {B}.)",
+    "mana_cost": "",
+    "custom_tags": [
+        "+1 mana"
+    ],
+    "moxfield_tags": []
+}

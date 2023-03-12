@@ -1,0 +1,13 @@
+{
+    "name": "Paradise Mantle",
+    "cmc": 0,
+    "type_line": "Artifact \u2014 Equipment",
+    "oracle_text": "Equipped creature has \"{T}: Add one mana of any color.\"\nEquip {1}",
+    "mana_cost": "{0}",
+    "moxfield_tags": [
+        "Mana neutral rock"
+    ],
+    "custom_tags": [
+        "+1 mana"
+    ]
+}

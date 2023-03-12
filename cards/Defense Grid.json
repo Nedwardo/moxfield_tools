@@ -1,0 +1,11 @@
+{
+    "name": "Defense Grid",
+    "cmc": 2.0,
+    "type_line": "Artifact",
+    "oracle_text": "Each spell costs {3} more to cast except during its controller's turn.",
+    "mana_cost": "{2}",
+    "moxfield_tags": [
+        "Stack interaction"
+    ],
+    "custom_tags": []
+}

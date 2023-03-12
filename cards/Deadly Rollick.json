@@ -1,0 +1,15 @@
+{
+    "name": "Deadly Rollick",
+    "cmc": 4.0,
+    "type_line": "Instant",
+    "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nExile target creature.",
+    "mana_cost": "{3}{B}",
+    "Alternative cost": {
+        "cmc": 0.0,
+        "mana_cost": "{0}"
+    },
+    "moxfield_tags": [
+        "Board interaction"
+    ],
+    "custom_tags": []
+}

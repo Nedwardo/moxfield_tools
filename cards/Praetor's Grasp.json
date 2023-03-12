@@ -1,0 +1,11 @@
+{
+    "name": "Praetor's Grasp",
+    "cmc": 3.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Search target opponent's library for a card and exile it face down. Then that player shuffles. You may look at and play that card for as long as it remains exiled.",
+    "mana_cost": "{1}{B}{B}",
+    "moxfield_tags": [
+        "Tutor"
+    ],
+    "custom_tags": []
+}

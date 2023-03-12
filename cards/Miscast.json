@@ -1,0 +1,11 @@
+{
+    "name": "Miscast",
+    "cmc": 1.0,
+    "type_line": "Instant",
+    "oracle_text": "Counter target instant or sorcery spell unless its controller pays {3}.",
+    "mana_cost": "{U}",
+    "moxfield_tags": [
+        "Stack interaction"
+    ],
+    "custom_tags": []
+}

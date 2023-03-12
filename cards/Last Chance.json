@@ -1,0 +1,11 @@
+{
+    "name": "Last Chance",
+    "cmc": 2.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Take an extra turn after this one. At the beginning of that turn's end step, you lose the game.",
+    "mana_cost": "{R}{R}",
+    "moxfield_tags": [
+        "Extra turn spell"
+    ],
+    "custom_tags": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Timetwister",
+    "cmc": 3.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Each player shuffles their hand and graveyard into their library, then draws seven cards. (Then put Timetwister into its owner's graveyard.)",
+    "mana_cost": "{2}{U}",
+    "moxfield_tags": [
+        "Wheel"
+    ],
+    "custom_tags": []
+}

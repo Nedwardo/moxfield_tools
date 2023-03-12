@@ -1,0 +1,11 @@
+{
+    "name": "Badlands",
+    "cmc": 0,
+    "type_line": "Land \u2014 Swamp Mountain",
+    "oracle_text": "({T}: Add {B} or {R}.)",
+    "mana_cost": "",
+    "custom_tags": [
+        "+1 mana"
+    ],
+    "moxfield_tags": []
+}

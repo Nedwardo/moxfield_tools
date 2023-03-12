@@ -1,0 +1,10 @@
+{
+    "name": "Rograkh, Son of Rohgahh",
+    "cmc": 0,
+    "type_line": "Legendary Creature \u2014 Kobold Warrior",
+    "oracle_text": "First strike, menace, trample\nPartner (You can have two commanders if both have partner.)",
+    "mana_cost": "{0}",
+    "power": "0",
+    "toughness": "1",
+    "custom_tags": []
+}

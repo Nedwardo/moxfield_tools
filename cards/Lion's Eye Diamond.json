@@ -1,0 +1,11 @@
+{
+    "name": "Lion's Eye Diamond",
+    "cmc": 0,
+    "type_line": "Artifact",
+    "oracle_text": "Discard your hand, Sacrifice Lion's Eye Diamond: Add three mana of any one color. Activate only as an instant.",
+    "mana_cost": "{0}",
+    "moxfield_tags": [
+        "Win condition"
+    ],
+    "custom_tags": []
+}

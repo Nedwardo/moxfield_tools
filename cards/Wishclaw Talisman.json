@@ -1,0 +1,11 @@
+{
+    "name": "Wishclaw Talisman",
+    "cmc": 2.0,
+    "type_line": "Artifact",
+    "oracle_text": "Wishclaw Talisman enters the battlefield with three wish counters on it.\n{1}, {T}, Remove a wish counter from Wishclaw Talisman: Search your library for a card, put it into your hand, then shuffle. An opponent gains control of Wishclaw Talisman. Activate only during your turn.",
+    "mana_cost": "{1}{B}",
+    "moxfield_tags": [
+        "Tutor"
+    ],
+    "custom_tags": []
+}

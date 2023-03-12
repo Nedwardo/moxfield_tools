@@ -1,0 +1,11 @@
+{
+    "name": "Mental Misstep",
+    "cmc": 1.0,
+    "type_line": "Instant",
+    "oracle_text": "({U/P} can be paid with either {U} or 2 life.)\nCounter target spell with mana value 1.",
+    "mana_cost": "{U/P}",
+    "moxfield_tags": [
+        "Stack interaction"
+    ],
+    "custom_tags": []
+}

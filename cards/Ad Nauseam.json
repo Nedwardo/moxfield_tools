@@ -1,0 +1,13 @@
+{
+    "name": "Ad Nauseam",
+    "cmc": 5.0,
+    "type_line": "Instant",
+    "oracle_text": "Reveal the top card of your library and put that card into your hand. You lose life equal to its mana value. You may repeat this process any number of times.",
+    "mana_cost": "{3}{B}{B}",
+    "moxfield_tags": [
+        "Win condition"
+    ],
+    "custom_tags": [
+        "one card win cons"
+    ]
+}

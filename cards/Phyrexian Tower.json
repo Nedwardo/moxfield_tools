@@ -1,0 +1,11 @@
+{
+    "name": "Phyrexian Tower",
+    "cmc": 0,
+    "type_line": "Legendary Land",
+    "oracle_text": "{T}: Add {C}.\n{T}, Sacrifice a creature: Add {B}{B}.",
+    "mana_cost": "",
+    "custom_tags": [
+        "+2 mana"
+    ],
+    "moxfield_tags": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Swan Song",
+    "cmc": 1.0,
+    "type_line": "Instant",
+    "oracle_text": "Counter target enchantment, instant, or sorcery spell. Its controller creates a 2/2 blue Bird creature token with flying.",
+    "mana_cost": "{U}",
+    "moxfield_tags": [
+        "Stack interaction"
+    ],
+    "custom_tags": []
+}

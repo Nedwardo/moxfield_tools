@@ -1,0 +1,244 @@
+{
+    "Ad Nauseam": [
+        "Win condition"
+    ],
+    "Arcane Signet": [
+        "Mana negative rock"
+    ],
+    "Arid Mesa": [],
+    "Badlands": [],
+    "Bloodstained Mire": [],
+    "Brain Freeze": [
+        "Win condition"
+    ],
+    "Brainstorm": [
+        "Cantrip"
+    ],
+    "Cabal Ritual": [
+        "Ritual"
+    ],
+    "Chain of Vapor": [
+        "Board interaction"
+    ],
+    "Chrome Mox": [
+        "Mana positive rock"
+    ],
+    "City of Brass": [],
+    "Command Tower": [],
+    "Dark Ritual": [
+        "Ritual"
+    ],
+    "Demonic Consultation": [
+        "Win condition"
+    ],
+    "Demonic Tutor": [
+        "Tutor"
+    ],
+    "Dockside Extortionist": [
+        "Ritual"
+    ],
+    "Flooded Strand": [],
+    "Flusterstorm": [
+        "Stack interaction"
+    ],
+    "Force of Will": [
+        "Stack interaction"
+    ],
+    "Gamble": [
+        "Tutor"
+    ],
+    "Gemstone Caverns": [],
+    "Gitaxian Probe": [
+        "Cantrip"
+    ],
+    "Imperial Seal": [
+        "Tutor"
+    ],
+    "Lion's Eye Diamond": [
+        "Win condition"
+    ],
+    "Lotus Petal": [
+        "Mana positive rock"
+    ],
+    "Mana Confluence": [],
+    "Mana Crypt": [
+        "Mana positive rock"
+    ],
+    "Mana Vault": [
+        "Mana positive rock"
+    ],
+    "Marsh Flats": [],
+    "Mental Misstep": [
+        "Stack interaction"
+    ],
+    "Misty Rainforest": [],
+    "Mox Diamond": [
+        "Mana positive rock"
+    ],
+    "Mox Opal": [
+        "Mana positive rock"
+    ],
+    "Mystic Remora": [
+        "Ridiculous card advantage engines"
+    ],
+    "Mystical Tutor": [
+        "Tutor"
+    ],
+    "Pact of Negation": [
+        "Stack interaction"
+    ],
+    "Polluted Delta": [],
+    "Praetor's Grasp": [
+        "Tutor"
+    ],
+    "Pyroblast": [
+        "Stack interaction"
+    ],
+    "Red Elemental Blast": [
+        "Stack interaction"
+    ],
+    "Rhystic Study": [
+        "Ridiculous card advantage engines"
+    ],
+    "Scalding Tarn": [],
+    "Snap": [
+        "Board interaction"
+    ],
+    "Sol Ring": [
+        "Mana positive rock"
+    ],
+    "Steam Vents": [],
+    "Swan Song": [
+        "Stack interaction"
+    ],
+    "Tainted Pact": [
+        "Win condition"
+    ],
+    "Thassa's Oracle": [
+        "Win condition"
+    ],
+    "Timetwister": [
+        "Wheel"
+    ],
+    "Underground Sea": [],
+    "Underworld Breach": [
+        "Win condition"
+    ],
+    "Vampiric Tutor": [
+        "Tutor"
+    ],
+    "Verdant Catacombs": [],
+    "Volcanic Island": [],
+    "Watery Grave": [],
+    "Wheel of Fortune": [
+        "Wheel"
+    ],
+    "Windfall": [
+        "Wheel"
+    ],
+    "Wishclaw Talisman": [
+        "Tutor"
+    ],
+    "Yawgmoth's Will": [
+        "Conditional win condition"
+    ],
+    "Springleaf Drum": [
+        "Mana neutral rock"
+    ],
+    "Mox Amber": [
+        "Mana positive rock"
+    ],
+    "Jeska's Will": [
+        "Ritual"
+    ],
+    "Culling the Weak": [
+        "Ritual"
+    ],
+    "Diabolic Intent": [
+        "Tutor"
+    ],
+    "Deflecting Swat": [
+        "Stack interaction"
+    ],
+    "Fierce Guardianship": [
+        "Stack interaction"
+    ],
+    "Wheel of Misfortune": [
+        "Wheel"
+    ],
+    "Paradise Mantle": [
+        "Mana neutral rock"
+    ],
+    "Simian Spirit Guide": [
+        "Ritual"
+    ],
+    "Wooded Foothills": [],
+    "Mnemonic Betrayal": [
+        "Conditional win condition"
+    ],
+    "Final Fortune": [
+        "Extra turn spell"
+    ],
+    "Necropotence": [
+        "Ridiculous card advantage engines"
+    ],
+    "Defense Grid": [
+        "Stack interaction"
+    ],
+    "An Offer You Can't Refuse": [
+        "Stack interaction"
+    ],
+    "Gemstone Mine": [],
+    "Rite of Flame": [
+        "Ritual"
+    ],
+    "Ragavan, Nimble Pilferer": [
+        "Mana negative rock"
+    ],
+    "Phyrexian Tower": [],
+    "Dress Down": [
+        "Board interaction"
+    ],
+    "Blood Crypt": [],
+    "Mindbreak Trap": [
+        "Stack interaction"
+    ],
+    "Deadly Rollick": [
+        "Board interaction"
+    ],
+    "Bolas's Citadel": [
+        "Ridiculous card advantage engines"
+    ],
+    "Transmute Artifact": [
+        "Tutor"
+    ],
+    "Last Chance": [
+        "Extra turn spell"
+    ],
+    "Warrior's Oath": [
+        "Extra turn spell"
+    ],
+    "Moonsnare Prototype": [
+        "Mana neutral rock"
+    ],
+    "Grim Monolith": [
+        "Mana positive rock"
+    ],
+    "Talisman of Creativity": [
+        "Mana negative rock"
+    ],
+    "Talisman of Dominance": [
+        "Mana negative rock"
+    ],
+    "Talisman of Indulgence": [
+        "Mana negative rock"
+    ],
+    "Ancient Tomb": [],
+    "Otawara, Soaring City": [],
+    "Exotic Orchard": [],
+    "Morphic Pool": [],
+    "Luxury Suite": [],
+    "Miscast": [
+        "Stack interaction"
+    ]
+}

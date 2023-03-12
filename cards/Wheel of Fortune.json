@@ -1,0 +1,11 @@
+{
+    "name": "Wheel of Fortune",
+    "cmc": 3.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Each player discards their hand, then draws seven cards.",
+    "mana_cost": "{2}{R}",
+    "moxfield_tags": [
+        "Wheel"
+    ],
+    "custom_tags": []
+}

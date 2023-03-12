@@ -1,0 +1,14 @@
+{
+    "name": "Mana Crypt",
+    "cmc": 0,
+    "type_line": "Artifact",
+    "oracle_text": "At the beginning of your upkeep, flip a coin. If you lose the flip, Mana Crypt deals 3 damage to you.\n{T}: Add {C}{C}.",
+    "mana_cost": "{0}",
+    "moxfield_tags": [
+        "Mana positive rock"
+    ],
+    "custom_tags": [
+        "+2 mana",
+        "ritual"
+    ]
+}

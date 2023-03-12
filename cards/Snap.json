@@ -1,0 +1,11 @@
+{
+    "name": "Snap",
+    "cmc": 2.0,
+    "type_line": "Instant",
+    "oracle_text": "Return target creature to its owner's hand. Untap up to two lands.",
+    "mana_cost": "{1}{U}",
+    "moxfield_tags": [
+        "Board interaction"
+    ],
+    "custom_tags": []
+}

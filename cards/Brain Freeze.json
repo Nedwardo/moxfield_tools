@@ -1,0 +1,11 @@
+{
+    "name": "Brain Freeze",
+    "cmc": 2.0,
+    "type_line": "Instant",
+    "oracle_text": "Target player mills three cards.\nStorm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+    "mana_cost": "{1}{U}",
+    "moxfield_tags": [
+        "Win condition"
+    ],
+    "custom_tags": []
+}

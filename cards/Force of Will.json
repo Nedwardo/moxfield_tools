@@ -1,0 +1,15 @@
+{
+    "name": "Force of Will",
+    "cmc": 5.0,
+    "type_line": "Instant",
+    "oracle_text": "You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.\nCounter target spell.",
+    "mana_cost": "{3}{U}{U}",
+    "Alternative cost": {
+        "cmc": 0.0,
+        "mana_cost": "{0}"
+    },
+    "moxfield_tags": [
+        "Stack interaction"
+    ],
+    "custom_tags": []
+}

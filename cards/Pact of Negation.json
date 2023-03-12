@@ -1,0 +1,11 @@
+{
+    "name": "Pact of Negation",
+    "cmc": 0,
+    "type_line": "Instant",
+    "oracle_text": "Counter target spell.\nAt the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.",
+    "mana_cost": "{0}",
+    "moxfield_tags": [
+        "Stack interaction"
+    ],
+    "custom_tags": []
+}

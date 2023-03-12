@@ -1,0 +1,11 @@
+{
+    "name": "Misty Rainforest",
+    "cmc": 0,
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice Misty Rainforest: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
+    "mana_cost": "",
+    "custom_tags": [
+        "+1 mana"
+    ],
+    "moxfield_tags": []
+}

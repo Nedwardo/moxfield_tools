@@ -1,0 +1,11 @@
+{
+    "name": "Steam Vents",
+    "cmc": 0,
+    "type_line": "Land \u2014 Island Mountain",
+    "oracle_text": "({T}: Add {U} or {R}.)\nAs Steam Vents enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.",
+    "mana_cost": "",
+    "custom_tags": [
+        "+1 mana"
+    ],
+    "moxfield_tags": []
+}

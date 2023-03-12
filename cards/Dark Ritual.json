@@ -1,0 +1,14 @@
+{
+    "name": "Dark Ritual",
+    "cmc": 1.0,
+    "type_line": "Instant",
+    "oracle_text": "Add {B}{B}{B}.",
+    "mana_cost": "{B}",
+    "moxfield_tags": [
+        "Ritual"
+    ],
+    "custom_tags": [
+        "+3 mana",
+        "ritual"
+    ]
+}

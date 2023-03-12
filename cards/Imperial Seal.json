@@ -1,0 +1,11 @@
+{
+    "name": "Imperial Seal",
+    "cmc": 1.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Search your library for a card, then shuffle and put that card on top. You lose 2 life.",
+    "mana_cost": "{B}",
+    "moxfield_tags": [
+        "Tutor"
+    ],
+    "custom_tags": []
+}

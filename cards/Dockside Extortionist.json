@@ -1,0 +1,13 @@
+{
+    "name": "Dockside Extortionist",
+    "cmc": 2.0,
+    "type_line": "Creature \u2014 Goblin Pirate",
+    "oracle_text": "When Dockside Extortionist enters the battlefield, create X Treasure tokens, where X is the number of artifacts and enchantments your opponents control. (Treasure tokens are artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+    "mana_cost": "{1}{R}",
+    "power": "1",
+    "toughness": "2",
+    "moxfield_tags": [
+        "Ritual"
+    ],
+    "custom_tags": []
+}

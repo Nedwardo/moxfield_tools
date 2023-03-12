@@ -1,0 +1,13 @@
+{
+    "name": "Talisman of Creativity",
+    "cmc": 2.0,
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. Talisman of Creativity deals 1 damage to you.",
+    "mana_cost": "{2}",
+    "moxfield_tags": [
+        "Mana negative rock"
+    ],
+    "custom_tags": [
+        "+1 mana"
+    ]
+}

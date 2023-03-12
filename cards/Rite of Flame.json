@@ -1,0 +1,14 @@
+{
+    "name": "Rite of Flame",
+    "cmc": 1.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Add {R}{R}, then add {R} for each card named Rite of Flame in each graveyard.",
+    "mana_cost": "{R}",
+    "moxfield_tags": [
+        "Ritual"
+    ],
+    "custom_tags": [
+        "+2 mana",
+        "ritual"
+    ]
+}

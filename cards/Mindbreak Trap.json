@@ -1,0 +1,15 @@
+{
+    "name": "Mindbreak Trap",
+    "cmc": 4.0,
+    "type_line": "Instant \u2014 Trap",
+    "oracle_text": "If an opponent cast three or more spells this turn, you may pay {0} rather than pay this spell's mana cost.\nExile any number of target spells.",
+    "mana_cost": "{2}{U}{U}",
+    "Alternative cost": {
+        "cmc": 0.0,
+        "mana_cost": "{0}"
+    },
+    "moxfield_tags": [
+        "Stack interaction"
+    ],
+    "custom_tags": []
+}

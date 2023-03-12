@@ -1,0 +1,15 @@
+{
+    "name": "Deflecting Swat",
+    "cmc": 3.0,
+    "type_line": "Instant",
+    "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
+    "mana_cost": "{2}{R}",
+    "Alternative cost": {
+        "cmc": 0.0,
+        "mana_cost": "{0}"
+    },
+    "moxfield_tags": [
+        "Stack interaction"
+    ],
+    "custom_tags": []
+}

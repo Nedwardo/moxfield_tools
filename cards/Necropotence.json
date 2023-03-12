@@ -1,0 +1,11 @@
+{
+    "name": "Necropotence",
+    "cmc": 3.0,
+    "type_line": "Enchantment",
+    "oracle_text": "Skip your draw step.\nWhenever you discard a card, exile that card from your graveyard.\nPay 1 life: Exile the top card of your library face down. Put that card into your hand at the beginning of your next end step.",
+    "mana_cost": "{B}{B}{B}",
+    "moxfield_tags": [
+        "Ridiculous card advantage engines"
+    ],
+    "custom_tags": []
+}

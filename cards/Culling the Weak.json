@@ -1,0 +1,14 @@
+{
+    "name": "Culling the Weak",
+    "cmc": 1.0,
+    "type_line": "Instant",
+    "oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nAdd {B}{B}{B}{B}.",
+    "mana_cost": "{B}",
+    "moxfield_tags": [
+        "Ritual"
+    ],
+    "custom_tags": [
+        "+4 mana",
+        "ritual"
+    ]
+}

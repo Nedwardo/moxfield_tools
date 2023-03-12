@@ -1,0 +1,11 @@
+{
+    "name": "Brainstorm",
+    "cmc": 1.0,
+    "type_line": "Instant",
+    "oracle_text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
+    "mana_cost": "{U}",
+    "moxfield_tags": [
+        "Cantrip"
+    ],
+    "custom_tags": []
+}

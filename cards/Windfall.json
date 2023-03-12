@@ -1,0 +1,11 @@
+{
+    "name": "Windfall",
+    "cmc": 3.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way.",
+    "mana_cost": "{2}{U}",
+    "moxfield_tags": [
+        "Wheel"
+    ],
+    "custom_tags": []
+}

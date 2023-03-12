@@ -1,0 +1,14 @@
+{
+    "name": "Grim Monolith",
+    "cmc": 2.0,
+    "type_line": "Artifact",
+    "oracle_text": "Grim Monolith doesn't untap during your untap step.\n{T}: Add {C}{C}{C}.\n{4}: Untap Grim Monolith.",
+    "mana_cost": "{2}",
+    "moxfield_tags": [
+        "Mana positive rock"
+    ],
+    "custom_tags": [
+        "+3 mana",
+        "ritual"
+    ]
+}

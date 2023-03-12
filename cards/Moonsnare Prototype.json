@@ -1,0 +1,13 @@
+{
+    "name": "Moonsnare Prototype",
+    "cmc": 1.0,
+    "type_line": "Artifact",
+    "oracle_text": "{T}, Tap an untapped artifact or creature you control: Add {C}.\nChannel \u2014 {4}{U}, Discard Moonsnare Prototype: The owner of target nonland permanent puts it on the top or bottom of their library.",
+    "mana_cost": "{U}",
+    "moxfield_tags": [
+        "Mana neutral rock"
+    ],
+    "custom_tags": [
+        "+1 mana"
+    ]
+}

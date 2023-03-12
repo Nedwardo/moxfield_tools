@@ -1,0 +1,11 @@
+{
+    "name": "Mnemonic Betrayal",
+    "cmc": 3.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Exile all opponents' graveyards. You may cast spells from among those cards this turn, and you may spend mana as though it were mana of any type to cast those spells. At the beginning of the next end step, if any of those cards remain exiled, return them to their owners' graveyards.\nExile Mnemonic Betrayal.",
+    "mana_cost": "{1}{U}{B}",
+    "moxfield_tags": [
+        "Conditional win condition"
+    ],
+    "custom_tags": []
+}

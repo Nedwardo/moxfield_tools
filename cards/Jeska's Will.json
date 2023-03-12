@@ -1,0 +1,14 @@
+{
+    "name": "Jeska's Will",
+    "cmc": 3.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Choose one. If you control a commander as you cast this spell, you may choose both.\n\u2022 Add {R} for each card in target opponent's hand.\n\u2022 Exile the top three cards of your library. You may play them this turn.",
+    "mana_cost": "{2}{R}",
+    "moxfield_tags": [
+        "Ritual"
+    ],
+    "custom_tags": [
+        "+7 mana",
+        "ritual"
+    ]
+}

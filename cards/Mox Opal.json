@@ -1,0 +1,14 @@
+{
+    "name": "Mox Opal",
+    "cmc": 0,
+    "type_line": "Legendary Artifact",
+    "oracle_text": "Metalcraft \u2014 {T}: Add one mana of any color. Activate only if you control three or more artifacts.",
+    "mana_cost": "{0}",
+    "moxfield_tags": [
+        "Mana positive rock"
+    ],
+    "custom_tags": [
+        "+1 mana",
+        "ritual"
+    ]
+}

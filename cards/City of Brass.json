@@ -1,0 +1,11 @@
+{
+    "name": "City of Brass",
+    "cmc": 0,
+    "type_line": "Land",
+    "oracle_text": "Whenever City of Brass becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+    "mana_cost": "",
+    "custom_tags": [
+        "+1 mana"
+    ],
+    "moxfield_tags": []
+}

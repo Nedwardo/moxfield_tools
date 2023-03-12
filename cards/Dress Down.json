@@ -1,0 +1,11 @@
+{
+    "name": "Dress Down",
+    "cmc": 2.0,
+    "type_line": "Enchantment",
+    "oracle_text": "Flash\nWhen Dress Down enters the battlefield, draw a card.\nCreatures lose all abilities.\nAt the beginning of the end step, sacrifice Dress Down.",
+    "mana_cost": "{1}{U}",
+    "moxfield_tags": [
+        "Board interaction"
+    ],
+    "custom_tags": []
+}

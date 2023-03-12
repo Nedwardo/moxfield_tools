@@ -1,0 +1,11 @@
+{
+    "name": "Mystical Tutor",
+    "cmc": 1.0,
+    "type_line": "Instant",
+    "oracle_text": "Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.",
+    "mana_cost": "{U}",
+    "moxfield_tags": [
+        "Tutor"
+    ],
+    "custom_tags": []
+}

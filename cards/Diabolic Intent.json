@@ -1,0 +1,11 @@
+{
+    "name": "Diabolic Intent",
+    "cmc": 2.0,
+    "type_line": "Sorcery",
+    "oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nSearch your library for a card, put that card into your hand, then shuffle.",
+    "mana_cost": "{1}{B}",
+    "moxfield_tags": [
+        "Tutor"
+    ],
+    "custom_tags": []
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Chrome Mox",
+    "cmc": 0,
+    "type_line": "Artifact",
+    "oracle_text": "Imprint \u2014 When Chrome Mox enters the battlefield, you may exile a nonartifact, nonland card from your hand.\n{T}: Add one mana of any of the exiled card's colors.",
+    "mana_cost": "{0}",
+    "moxfield_tags": [
+        "Mana positive rock"
+    ],
+    "custom_tags": [
+        "+1 mana",
+        "ritual"
+    ]
+}

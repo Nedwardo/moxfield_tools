@@ -1,0 +1,14 @@
+{
+    "name": "Lotus Petal",
+    "cmc": 0,
+    "type_line": "Artifact",
+    "oracle_text": "{T}, Sacrifice Lotus Petal: Add one mana of any color.",
+    "mana_cost": "{0}",
+    "moxfield_tags": [
+        "Mana positive rock"
+    ],
+    "custom_tags": [
+        "+1 mana",
+        "ritual"
+    ]
+}
