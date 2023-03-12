@@ -9,9 +9,9 @@ from src.Cards.DeckFactory import DeckFactory
 class LocalCardFactory(DeckFactory):
     def __init__(
         self,
-        price_filename: str = "prices.json",
+        price_filename: str = "deck/prices.json",
         cards_dir: str = "cards",
-        deck_list_filename: str = "decklist.json",
+        deck_list_filename: str = "deck/decklist.json",
     ):
         with open(price_filename) as f:
             self.price_dict = json.load(f)

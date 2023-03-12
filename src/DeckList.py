@@ -31,9 +31,9 @@ class DeckList:
 
     def write_card_info(
         self,
-        deck_list_filename: str = "decklist.json",
+        deck_list_filename: str = "deck/decklist.json",
         card_info_dir: str = "cards",
-        price_filename: str = "prices.json",
+        price_filename: str = "deck/prices.json",
         tags_dir: str = "tags",
     ) -> None:
         if deck_list_filename:
