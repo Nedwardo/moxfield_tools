@@ -133,3 +133,7 @@ dmypy.json
 
 # notebooks
 .ipynb
+
+# Personal files
+_cache/
+_dead_code/
