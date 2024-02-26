@@ -17,9 +17,7 @@ class EdhTop16Source:
         self.session = Session()
 
     def get_all_decks(self) -> pd.DataFrame:
-        data = {
-            "standing": {"$lte": 16},
-        }
+        data = {"standing": {"$lte": 4}, "tourney_filter": {"size": {"$gte": 64}}}
         return self._make_api_request("req", data)
 
     def get_all_tournaments(self) -> pd.DataFrame:
@@ -35,10 +33,6 @@ class EdhTop16Source:
             timeout=200,
         ).text
         if response[0] == "<":
-            print(
-                f"Bad request: {response} for request: POST {target_url}"
-                f", headers={self.headers}, json={data}"
-            )
             raise TypeError(
                 f"Bad request: {response} for request: POST {target_url}"
                 f", headers={self.headers}, json={data}"

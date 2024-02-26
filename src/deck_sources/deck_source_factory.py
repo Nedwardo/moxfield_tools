@@ -1,4 +1,4 @@
-from src.deck_data.deck import Deck
+from src.deck.deck import Deck
 from src.deck_sources.deck_source import DeckSource
 from src.deck_sources.moxfield_source import MoxfieldSource
 

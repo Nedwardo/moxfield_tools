@@ -76,5 +76,4 @@ def is_sub_string_in_base_string(
 ) -> bool:
     if not regex:
         return sub_string in base_string
-    else:
-        return re.match(sub_string, base_string) is not None
+    return re.match(sub_string, base_string) is not None
