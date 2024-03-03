@@ -1,14 +1,17 @@
 from abc import ABC, abstractmethod
 from typing import Any
-
+from logging import Logger, getLogger
 from src.cacher import Cacher
 from src.deck.deck import Deck
 
 
 class DeckSource(ABC):
     cacher: Cacher
+    name: str
+    logger: Logger
 
     def __init__(self):
+        self.logger = getLogger(f"{self.name} deck source")
         self.cacher = Cacher()
 
     @abstractmethod
@@ -16,9 +19,14 @@ class DeckSource(ABC):
 
     def get_deck(self, uri: str) -> Deck | None:
         if self.cacher.is_deck_cached(self.get_id(uri)):
+            self.logger.info(f"{uri} is cached, obtaining cached file")
             deck = self.cacher.get_cached_deck(uri)
             if deck is not None:
                 return deck
+            self.logger.info(f"{uri} is cached, and corrupted, deleting cached file")
+            self.cacher.delete_cache_entry(uri)
+
+        self.logger.info(f"{uri} is not cached, making request")
         response = self._get(uri)
         if response is None:
             return None

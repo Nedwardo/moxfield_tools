@@ -9,6 +9,7 @@ from src.deck_sources.deck_source import DeckSource
 
 
 class MoxfieldSource(DeckSource):
+    name: str = "moxfield"
     api_base_url: str
     moxfield_base_url: str
     moxfield_regex: str
