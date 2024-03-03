@@ -18,6 +18,9 @@ class DeckSourceFactory:
             
 
     def get_deck(self, uri: str) -> Deck | None:
+        if not isinstance(uri, str):
+            return None
+
         uri = uri.strip()
         if self._is_failure(uri):
             return None

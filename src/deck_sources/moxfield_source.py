@@ -1,5 +1,6 @@
 from json import JSONDecodeError
 import re
+import time
 from typing import Any
 from src.deck.card import Card
 from src.deck.deck import Deck
@@ -54,6 +55,7 @@ class MoxfieldSource(DeckSource):
     def _get(self, uri: str) -> Any | None:
         url = self._convert_to_api_url(uri)
         response = self.session.get(url, headers=self.headers)
+        time.sleep(0.2)
         try:
             return response.json()
         except JSONDecodeError:

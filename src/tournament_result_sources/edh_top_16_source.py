@@ -17,7 +17,7 @@ class EdhTop16Source:
         self.session = Session()
 
     def get_all_decks(self) -> pd.DataFrame:
-        data = {"standing": {"$lte": 16}, "tourney_filter": {"size": {"$gte": 64}}}
+        data = {"standing": {"$lte": 9999999}, "tourney_filter": {"size": {"$gte": 64}}}
         return self._make_api_request("req", data)
 
     def get_all_tournaments(self) -> pd.DataFrame:

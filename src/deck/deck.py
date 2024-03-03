@@ -10,13 +10,23 @@ class Deck(dict):
         else:
             self.deck_list = deck_list
         super().__init__(self.deck_list)
+        
+    def from_json(json: dict[str, list[dict]]) -> "Deck":
+        deck_as_card_dict: dict[str, list[Card]] = {}
+        for board in ["maindeck", "commanders"]:
+            deck_as_card_dict[board] = []
+            for card_as_json in json[board]:
+                card = Card.from_json(card_as_json)
+                deck_as_card_dict[board].append(card)
+
+        return Deck(deck_as_card_dict)
 
     @property
-    def maindeck(self):
+    def maindeck(self) -> list[Card]:
         return self.deck_list["maindeck"]
 
     @property
-    def commanders(self):
+    def commanders(self) -> list[Card]:
         return self.deck_list["commanders"]
 
     def contains(

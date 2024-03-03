@@ -11,6 +11,9 @@ class Card(dict):
         self.name = name
         self.card_info = card_info
         super().__init__(self.card_info)
+    
+    def from_json(json: dict[str, Any]) -> "Card":
+        return Card(json["name"], json)
 
     def cmc(self, allow_alternate=True) -> int:
         alternate_cost_key = "Alternative cost"

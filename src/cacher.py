@@ -2,7 +2,9 @@ from glob import glob
 from pathlib import Path
 import json
 import os
+from typing import Any
 from pathvalidate import sanitize_filename
+from src.deck.card import Card
 
 from src.deck.deck import Deck
 
@@ -29,7 +31,7 @@ class Cacher:
             "w",
             encoding="utf-8",
         ) as f:
-            json.dump(value, f)
+            json.dump(value, f, indent=4)
 
     def is_deck_cached(self, key: str) -> bool:
         return len(glob(self.get_filename(key))) > 0
@@ -42,11 +44,10 @@ class Cacher:
             self.get_filename(key),
             encoding="utf-8",
         ) as f:
-            return Deck(json.load(f))
+            return Deck.from_json(json.load(f))
     
     def delete_cache_entry(self, key: str) -> None:
         if not self.is_deck_cached(key):
             return None
 
         os.remove(self.get_filename(key))
-        
