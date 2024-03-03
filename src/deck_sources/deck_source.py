@@ -18,13 +18,15 @@ class DeckSource(ABC):
     def is_valid_target(self, uri: str) -> bool: ...
 
     def get_deck(self, uri: str) -> Deck | None:
-        if self.cacher.is_deck_cached(self.get_id(uri)):
+        id = self.get_id(uri)
+
+        if self.cacher.is_deck_cached(id):
             self.logger.info(f"{uri} is cached, obtaining cached file")
-            deck = self.cacher.get_cached_deck(uri)
+            deck = self.cacher.get_cached_deck(id)
             if deck is not None:
                 return deck
             self.logger.info(f"{uri} is cached, and corrupted, deleting cached file")
-            self.cacher.delete_cache_entry(uri)
+            self.cacher.delete_cache_entry(id)
 
         self.logger.info(f"{uri} is not cached, making request")
         response = self._get(uri)

@@ -7,7 +7,7 @@ import os
 
 class DeckSourceFactory:
     deck_sources: list[DeckSource]
-    failed_lookups_file: str | None = None
+    failed_lookups_file: str | None = "failed_lookups.txt"
     logger: Logger = getLogger("DeckSourceFactory")
 
     def __init__(self):
@@ -18,6 +18,10 @@ class DeckSourceFactory:
             
 
     def get_deck(self, uri: str) -> Deck | None:
+        uri = uri.strip()
+        if self._is_failure(uri):
+            return None
+
         for deck_source in self.deck_sources:
             if deck_source.is_valid_target(uri):
                 deck = deck_source.get_deck(uri)
@@ -31,14 +35,18 @@ class DeckSourceFactory:
         return None
     
     def _log_out_failed_lookup(self, uri: str) -> None:
-        self.logger.info(f"Could not find valid source for uri: {uri}, logging to file {self.failed_lookups_file}")
+        if (not self._is_failure(uri) and self.failed_lookups_file):
+            self.logger.info(f"Could not find valid source for uri: {uri}, logging to file {self.failed_lookups_file}")
+
+            with open(self.failed_lookups_file, "a") as f:
+                f.write(f"{uri}\n")
+
+    def _is_failure(self, uri: str) -> bool:
         if not self.failed_lookups_file:
-            return
+            return False
 
         with open(self.failed_lookups_file, "r") as f:
             failed_lookups = f.readlines()
 
-        if uri not in failed_lookups:
-            with open(self.failed_lookups_file, "a+") as f:
-                f.write(f"{uri}/n")
-    
+        return uri in failed_lookups
+        

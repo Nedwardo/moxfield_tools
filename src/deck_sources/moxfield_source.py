@@ -69,10 +69,12 @@ class MoxfieldSource(DeckSource):
         deck_as_card_dict: dict[str, list[Card]] = {"mainboard": [], "commanders": []}
         for board in ["mainboard", "commanders"]:
             for card_name in json["boards"][board]["cards"]:
+                quantity = json["boards"][board]["cards"][card_name]["quantity"]
                 card_as_json = json["boards"][board]["cards"][card_name]["card"]
                 card = self._build_card(card_name, card_as_json)
                 if card is not None:
-                    deck_as_card_dict[board].append(card)
+                    for _ in range(quantity):
+                        deck_as_card_dict[board].append(card)
 
         deck_as_card_dict["maindeck"] = deck_as_card_dict["mainboard"]
         del deck_as_card_dict["mainboard"]
